@@ -1,7 +1,11 @@
+require "bls_api/constants"
 require "bls_api/errors"
+require "bls_api/retry"
 
 module BLS_API
   class Client
+    include BLS_API::Retry
+
     attr_accessor :api_key
 
     def initialize(api_key = nil)
