@@ -1,0 +1,515 @@
+{
+  "status": "REQUEST_SUCCEEDED",
+  "responseTime": 842,
+  "message": [
+
+  ],
+  "Results": {
+    "series": [
+      {
+        "seriesID": "LNS14000000",
+        "data": [
+          {
+            "year": "2015",
+            "period": "M12",
+            "periodName": "December",
+            "value": "5.0",
+            "footnotes": [
+              {
+              }
+            ]
+          },
+          {
+            "year": "2015",
+            "period": "M11",
+            "periodName": "November",
+            "value": "5.0",
+            "footnotes": [
+              {
+              }
+            ]
+          },
+          {
+            "year": "2015",
+            "period": "M10",
+            "periodName": "October",
+            "value": "5.0",
+            "footnotes": [
+              {
+              }
+            ]
+          },
+          {
+            "year": "2015",
+            "period": "M09",
+            "periodName": "September",
+            "value": "5.1",
+            "footnotes": [
+              {
+              }
+            ]
+          },
+          {
+            "year": "2015",
+            "period": "M08",
+            "periodName": "August",
+            "value": "5.1",
+            "footnotes": [
+              {
+              }
+            ]
+          },
+          {
+            "year": "2015",
+            "period": "M07",
+            "periodName": "July",
+            "value": "5.3",
+            "footnotes": [
+              {
+              }
+            ]
+          },
+          {
+            "year": "2015",
+            "period": "M06",
+            "periodName": "June",
+            "value": "5.3",
+            "footnotes": [
+              {
+              }
+            ]
+          },
+          {
+            "year": "2015",
+            "period": "M05",
+            "periodName": "May",
+            "value": "5.5",
+            "footnotes": [
+              {
+              }
+            ]
+          },
+          {
+            "year": "2015",
+            "period": "M04",
+            "periodName": "April",
+            "value": "5.4",
+            "footnotes": [
+              {
+              }
+            ]
+          },
+          {
+            "year": "2015",
+            "period": "M03",
+            "periodName": "March",
+            "value": "5.5",
+            "footnotes": [
+              {
+              }
+            ]
+          },
+          {
+            "year": "2015",
+            "period": "M02",
+            "periodName": "February",
+            "value": "5.5",
+            "footnotes": [
+              {
+              }
+            ]
+          },
+          {
+            "year": "2015",
+            "period": "M01",
+            "periodName": "January",
+            "value": "5.7",
+            "footnotes": [
+              {
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "seriesID": "LNS12000000",
+        "data": [
+          {
+            "year": "2015",
+            "period": "M12",
+            "periodName": "December",
+            "value": "149929",
+            "footnotes": [
+              {
+              }
+            ]
+          },
+          {
+            "year": "2015",
+            "period": "M11",
+            "periodName": "November",
+            "value": "149444",
+            "footnotes": [
+              {
+              }
+            ]
+          },
+          {
+            "year": "2015",
+            "period": "M10",
+            "periodName": "October",
+            "value": "149197",
+            "footnotes": [
+              {
+              }
+            ]
+          },
+          {
+            "year": "2015",
+            "period": "M09",
+            "periodName": "September",
+            "value": "148942",
+            "footnotes": [
+              {
+              }
+            ]
+          },
+          {
+            "year": "2015",
+            "period": "M08",
+            "periodName": "August",
+            "value": "149043",
+            "footnotes": [
+              {
+              }
+            ]
+          },
+          {
+            "year": "2015",
+            "period": "M07",
+            "periodName": "July",
+            "value": "148866",
+            "footnotes": [
+              {
+              }
+            ]
+          },
+          {
+            "year": "2015",
+            "period": "M06",
+            "periodName": "June",
+            "value": "148722",
+            "footnotes": [
+              {
+              }
+            ]
+          },
+          {
+            "year": "2015",
+            "period": "M05",
+            "periodName": "May",
+            "value": "148748",
+            "footnotes": [
+              {
+              }
+            ]
+          },
+          {
+            "year": "2015",
+            "period": "M04",
+            "periodName": "April",
+            "value": "148509",
+            "footnotes": [
+              {
+              }
+            ]
+          },
+          {
+            "year": "2015",
+            "period": "M03",
+            "periodName": "March",
+            "value": "148333",
+            "footnotes": [
+              {
+              }
+            ]
+          },
+          {
+            "year": "2015",
+            "period": "M02",
+            "periodName": "February",
+            "value": "148231",
+            "footnotes": [
+              {
+              }
+            ]
+          },
+          {
+            "year": "2015",
+            "period": "M01",
+            "periodName": "January",
+            "value": "148104",
+            "footnotes": [
+              {
+                "code": "1",
+                "text": "Data affected by changes in population controls."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "seriesID": "LNS11000000",
+        "data": [
+          {
+            "year": "2015",
+            "period": "M12",
+            "periodName": "December",
+            "value": "157833",
+            "footnotes": [
+              {
+              }
+            ]
+          },
+          {
+            "year": "2015",
+            "period": "M11",
+            "periodName": "November",
+            "value": "157367",
+            "footnotes": [
+              {
+              }
+            ]
+          },
+          {
+            "year": "2015",
+            "period": "M10",
+            "periodName": "October",
+            "value": "157096",
+            "footnotes": [
+              {
+              }
+            ]
+          },
+          {
+            "year": "2015",
+            "period": "M09",
+            "periodName": "September",
+            "value": "156867",
+            "footnotes": [
+              {
+              }
+            ]
+          },
+          {
+            "year": "2015",
+            "period": "M08",
+            "periodName": "August",
+            "value": "157061",
+            "footnotes": [
+              {
+              }
+            ]
+          },
+          {
+            "year": "2015",
+            "period": "M07",
+            "periodName": "July",
+            "value": "157115",
+            "footnotes": [
+              {
+              }
+            ]
+          },
+          {
+            "year": "2015",
+            "period": "M06",
+            "periodName": "June",
+            "value": "156984",
+            "footnotes": [
+              {
+              }
+            ]
+          },
+          {
+            "year": "2015",
+            "period": "M05",
+            "periodName": "May",
+            "value": "157367",
+            "footnotes": [
+              {
+              }
+            ]
+          },
+          {
+            "year": "2015",
+            "period": "M04",
+            "periodName": "April",
+            "value": "157032",
+            "footnotes": [
+              {
+              }
+            ]
+          },
+          {
+            "year": "2015",
+            "period": "M03",
+            "periodName": "March",
+            "value": "156890",
+            "footnotes": [
+              {
+              }
+            ]
+          },
+          {
+            "year": "2015",
+            "period": "M02",
+            "periodName": "February",
+            "value": "156878",
+            "footnotes": [
+              {
+              }
+            ]
+          },
+          {
+            "year": "2015",
+            "period": "M01",
+            "periodName": "January",
+            "value": "157025",
+            "footnotes": [
+              {
+                "code": "1",
+                "text": "Data affected by changes in population controls."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "seriesID": "LNS13000000",
+        "data": [
+          {
+            "year": "2015",
+            "period": "M12",
+            "periodName": "December",
+            "value": "7904",
+            "footnotes": [
+              {
+              }
+            ]
+          },
+          {
+            "year": "2015",
+            "period": "M11",
+            "periodName": "November",
+            "value": "7924",
+            "footnotes": [
+              {
+              }
+            ]
+          },
+          {
+            "year": "2015",
+            "period": "M10",
+            "periodName": "October",
+            "value": "7899",
+            "footnotes": [
+              {
+              }
+            ]
+          },
+          {
+            "year": "2015",
+            "period": "M09",
+            "periodName": "September",
+            "value": "7925",
+            "footnotes": [
+              {
+              }
+            ]
+          },
+          {
+            "year": "2015",
+            "period": "M08",
+            "periodName": "August",
+            "value": "8018",
+            "footnotes": [
+              {
+              }
+            ]
+          },
+          {
+            "year": "2015",
+            "period": "M07",
+            "periodName": "July",
+            "value": "8249",
+            "footnotes": [
+              {
+              }
+            ]
+          },
+          {
+            "year": "2015",
+            "period": "M06",
+            "periodName": "June",
+            "value": "8262",
+            "footnotes": [
+              {
+              }
+            ]
+          },
+          {
+            "year": "2015",
+            "period": "M05",
+            "periodName": "May",
+            "value": "8619",
+            "footnotes": [
+              {
+              }
+            ]
+          },
+          {
+            "year": "2015",
+            "period": "M04",
+            "periodName": "April",
+            "value": "8523",
+            "footnotes": [
+              {
+              }
+            ]
+          },
+          {
+            "year": "2015",
+            "period": "M03",
+            "periodName": "March",
+            "value": "8557",
+            "footnotes": [
+              {
+              }
+            ]
+          },
+          {
+            "year": "2015",
+            "period": "M02",
+            "periodName": "February",
+            "value": "8646",
+            "footnotes": [
+              {
+              }
+            ]
+          },
+          {
+            "year": "2015",
+            "period": "M01",
+            "periodName": "January",
+            "value": "8920",
+            "footnotes": [
+              {
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
