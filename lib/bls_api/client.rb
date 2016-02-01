@@ -1,6 +1,6 @@
-require "bls_api/raw_request"
 require "bls_api/constants"
 require "bls_api/errors"
+require "bls_api/raw_request"
 require "bls_api/retry"
 
 module BLS_API
