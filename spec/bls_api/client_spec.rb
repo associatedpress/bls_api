@@ -2,7 +2,7 @@ require "spec_helper"
 
 describe BLS_API::Client do
   describe "accepts an API key" do
-    let(:api_key) { "definitely-not-real" }
+    let(:api_key) { "dummy_api_key" }
 
     it "via environment variable" do
       ClimateControl.modify(:BLS_API_KEY => api_key) do
