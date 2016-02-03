@@ -26,18 +26,18 @@ module BLS_API
     #                         will raise an error during January of 2016 when
     #                         no 2016 data has yet been released.
     #           Optional arguments include:
-    #           :catch_errors   - A Boolean specifying whether to raise an
-    #                             APIError if the request is unsuccessful
-    #                             (default: true).
-    #           :catalog        - A Boolean specifying whether to include
-    #                             catalog data in the response
-    #                             (default: false).
-    #           :calculations   - A Boolean specifying whether to include
-    #                             net-change and percent-change calculations in
-    #                             the response (default: false).
-    #           :annual_average - A Boolean specifying whether to include
-    #                             annual averages in the response
-    #                             (default: false).
+    #           :catch_errors     - A Boolean specifying whether to raise an
+    #                               APIError if the request is unsuccessful
+    #                               (default: true).
+    #           :catalog          - A Boolean specifying whether to include
+    #                               catalog data in the response
+    #                               (default: false).
+    #           :calculations     - A Boolean specifying whether to include
+    #                               net-change and percent-change calculations
+    #                               in the response (default: false).
+    #           :annual_averages  - A Boolean specifying whether to include
+    #                               annual averages in the response
+    #                               (default: false).
     #
     # Returns a Hash of the parsed JSON response from the API.
     def make_api_request(options = {})
