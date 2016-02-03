@@ -23,5 +23,46 @@ module BLS_API
         raise BLS_API::Errors::ConfigurationError, missing_key_message
       end
     end
+
+    # Public: Request a batch of data from the BLS API.
+    #
+    # By default, raises BLS_API::Errors::APIError if the request is
+    # unsuccessful. (You can catch this with an IOError, if that's more your
+    # thing.)
+    #
+    # options - A Hash with three required arguments and four optional
+    #           arguments.
+    #           Required arguments include:
+    #           :series_ids - An Array of String series IDs for which to
+    #                         request data. If a String is provided instead, it
+    #                         is assumed to be a single series ID.
+    #           :start_year - An Integer representing the earliest year for
+    #                         which to request data.
+    #           :end_year   - An Integer representing the latest year for which
+    #                         to request data. Note that the BLS API will
+    #                         return an error if you specify a year for which
+    #                         no data exists; for example, an :end_year of 2016
+    #                         will raise an error during January of 2016 when
+    #                         no 2016 data has yet been released.
+    #           Optional arguments include:
+    #           :catch_errors     - A Boolean specifying whether to raise an
+    #                               APIError if the request is unsuccessful
+    #                               (default: true).
+    #           :catalog          - A Boolean specifying whether to include
+    #                               catalog data in the response
+    #                               (default: false).
+    #           :calculations     - A Boolean specifying whether to include
+    #                               net-change and percent-change calculations
+    #                               in the response (default: false).
+    #           :annual_averages  - A Boolean specifying whether to include
+    #                               annual averages in the response
+    #                               (default: false).
+    #
+    # Returns a Hash of the parsed JSON response from the API, with numeric
+    #   strings converted to BigDecimals.
+    def get(options = {})
+      raw_response = self.make_api_request(options)
+      self.destringify(raw_response)
+    end
   end
 end
