@@ -1,0 +1,1251 @@
+{
+  "status": "REQUEST_SUCCEEDED",
+  "responseTime": 781,
+  "message": [
+
+  ],
+  "Results": {
+    "series": [
+      {
+        "seriesID": "LNS14000000",
+        "catalog": {
+          "series_title": "(Seas) Unemployment Rate",
+          "series_id": "LNS14000000",
+          "seasonality": "Seasonally Adjusted",
+          "survey_name": "Labor Force Statistics from the Current Population Survey",
+          "measure_data_type": "Percent or rate",
+          "commerce_industry": "All Industries",
+          "occupation": "All Occupations",
+          "cps_labor_force_status": "Unemployment rate",
+          "demographic_age": "16 years and over",
+          "demographic_ethnic_origin": "All Origins",
+          "demographic_race": "All Races",
+          "demographic_gender": "Both Sexes",
+          "demographic_marital_status": "All marital statuses",
+          "demographic_education": "All educational levels"
+        },
+        "data": [
+          {
+            "year": "2015",
+            "period": "M12",
+            "periodName": "December",
+            "value": "5.0",
+            "footnotes": [
+              {
+              }
+            ],
+            "calculations": {
+              "net_changes": {
+                "1": "0.0",
+                "3": "-0.1",
+                "6": "-0.3",
+                "12": "-0.6"
+              },
+              "pct_changes": {
+                "1": "0.0",
+                "3": "-2.0",
+                "6": "-5.7",
+                "12": "-10.7"
+              }
+            }
+          },
+          {
+            "year": "2015",
+            "period": "M11",
+            "periodName": "November",
+            "value": "5.0",
+            "footnotes": [
+              {
+              }
+            ],
+            "calculations": {
+              "net_changes": {
+                "1": "0.0",
+                "3": "-0.1",
+                "6": "-0.5",
+                "12": "-0.8"
+              },
+              "pct_changes": {
+                "1": "0.0",
+                "3": "-2.0",
+                "6": "-9.1",
+                "12": "-13.8"
+              }
+            }
+          },
+          {
+            "year": "2015",
+            "period": "M10",
+            "periodName": "October",
+            "value": "5.0",
+            "footnotes": [
+              {
+              }
+            ],
+            "calculations": {
+              "net_changes": {
+                "1": "-0.1",
+                "3": "-0.3",
+                "6": "-0.4",
+                "12": "-0.7"
+              },
+              "pct_changes": {
+                "1": "-2.0",
+                "3": "-5.7",
+                "6": "-7.4",
+                "12": "-12.3"
+              }
+            }
+          },
+          {
+            "year": "2015",
+            "period": "M09",
+            "periodName": "September",
+            "value": "5.1",
+            "footnotes": [
+              {
+              }
+            ],
+            "calculations": {
+              "net_changes": {
+                "1": "0.0",
+                "3": "-0.2",
+                "6": "-0.4",
+                "12": "-0.9"
+              },
+              "pct_changes": {
+                "1": "0.0",
+                "3": "-3.8",
+                "6": "-7.3",
+                "12": "-15.0"
+              }
+            }
+          },
+          {
+            "year": "2015",
+            "period": "M08",
+            "periodName": "August",
+            "value": "5.1",
+            "footnotes": [
+              {
+              }
+            ],
+            "calculations": {
+              "net_changes": {
+                "1": "-0.2",
+                "3": "-0.4",
+                "6": "-0.4",
+                "12": "-1.1"
+              },
+              "pct_changes": {
+                "1": "-3.8",
+                "3": "-7.3",
+                "6": "-7.3",
+                "12": "-17.7"
+              }
+            }
+          },
+          {
+            "year": "2015",
+            "period": "M07",
+            "periodName": "July",
+            "value": "5.3",
+            "footnotes": [
+              {
+              }
+            ],
+            "calculations": {
+              "net_changes": {
+                "1": "0.0",
+                "3": "-0.1",
+                "6": "-0.4",
+                "12": "-0.9"
+              },
+              "pct_changes": {
+                "1": "0.0",
+                "3": "-1.9",
+                "6": "-7.0",
+                "12": "-14.5"
+              }
+            }
+          },
+          {
+            "year": "2015",
+            "period": "M06",
+            "periodName": "June",
+            "value": "5.3",
+            "footnotes": [
+              {
+              }
+            ],
+            "calculations": {
+              "net_changes": {
+                "1": "-0.2",
+                "3": "-0.2",
+                "6": "-0.3",
+                "12": "-0.8"
+              },
+              "pct_changes": {
+                "1": "-3.6",
+                "3": "-3.6",
+                "6": "-5.4",
+                "12": "-13.1"
+              }
+            }
+          },
+          {
+            "year": "2015",
+            "period": "M05",
+            "periodName": "May",
+            "value": "5.5",
+            "footnotes": [
+              {
+              }
+            ],
+            "calculations": {
+              "net_changes": {
+                "1": "0.1",
+                "3": "0.0",
+                "6": "-0.3",
+                "12": "-0.7"
+              },
+              "pct_changes": {
+                "1": "1.9",
+                "3": "0.0",
+                "6": "-5.2",
+                "12": "-11.3"
+              }
+            }
+          },
+          {
+            "year": "2015",
+            "period": "M04",
+            "periodName": "April",
+            "value": "5.4",
+            "footnotes": [
+              {
+              }
+            ],
+            "calculations": {
+              "net_changes": {
+                "1": "-0.1",
+                "3": "-0.3",
+                "6": "-0.3",
+                "12": "-0.8"
+              },
+              "pct_changes": {
+                "1": "-1.8",
+                "3": "-5.3",
+                "6": "-5.3",
+                "12": "-12.9"
+              }
+            }
+          },
+          {
+            "year": "2015",
+            "period": "M03",
+            "periodName": "March",
+            "value": "5.5",
+            "footnotes": [
+              {
+              }
+            ],
+            "calculations": {
+              "net_changes": {
+                "1": "0.0",
+                "3": "-0.1",
+                "6": "-0.5",
+                "12": "-1.2"
+              },
+              "pct_changes": {
+                "1": "0.0",
+                "3": "-1.8",
+                "6": "-8.3",
+                "12": "-17.9"
+              }
+            }
+          },
+          {
+            "year": "2015",
+            "period": "M02",
+            "periodName": "February",
+            "value": "5.5",
+            "footnotes": [
+              {
+              }
+            ],
+            "calculations": {
+              "net_changes": {
+                "1": "-0.2",
+                "3": "-0.3",
+                "6": "-0.7",
+                "12": "-1.2"
+              },
+              "pct_changes": {
+                "1": "-3.5",
+                "3": "-5.2",
+                "6": "-11.3",
+                "12": "-17.9"
+              }
+            }
+          },
+          {
+            "year": "2015",
+            "period": "M01",
+            "periodName": "January",
+            "value": "5.7",
+            "footnotes": [
+              {
+              }
+            ],
+            "calculations": {
+              "net_changes": {
+                "1": "0.1",
+                "3": "0.0",
+                "6": "-0.5",
+                "12": "-0.9"
+              },
+              "pct_changes": {
+                "1": "1.8",
+                "3": "0.0",
+                "6": "-8.1",
+                "12": "-13.6"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "seriesID": "LNS12000000",
+        "catalog": {
+          "series_title": "(Seas) Employment Level",
+          "series_id": "LNS12000000",
+          "seasonality": "Seasonally Adjusted",
+          "survey_name": "Labor Force Statistics from the Current Population Survey",
+          "measure_data_type": "Number in thousands",
+          "commerce_industry": "All Industries",
+          "occupation": "All Occupations",
+          "cps_labor_force_status": "Employed",
+          "demographic_age": "16 years and over",
+          "demographic_ethnic_origin": "All Origins",
+          "demographic_race": "All Races",
+          "demographic_gender": "Both Sexes",
+          "demographic_marital_status": "All marital statuses",
+          "demographic_education": "All educational levels"
+        },
+        "data": [
+          {
+            "year": "2015",
+            "period": "M12",
+            "periodName": "December",
+            "value": "149929",
+            "footnotes": [
+              {
+              }
+            ],
+            "calculations": {
+              "net_changes": {
+                "1": "485",
+                "3": "987",
+                "6": "1207",
+                "12": "2490"
+              },
+              "pct_changes": {
+                "1": "0.3",
+                "3": "0.7",
+                "6": "0.8",
+                "12": "1.7"
+              }
+            }
+          },
+          {
+            "year": "2015",
+            "period": "M11",
+            "periodName": "November",
+            "value": "149444",
+            "footnotes": [
+              {
+              }
+            ],
+            "calculations": {
+              "net_changes": {
+                "1": "247",
+                "3": "401",
+                "6": "696",
+                "12": "2055"
+              },
+              "pct_changes": {
+                "1": "0.2",
+                "3": "0.3",
+                "6": "0.5",
+                "12": "1.4"
+              }
+            }
+          },
+          {
+            "year": "2015",
+            "period": "M10",
+            "periodName": "October",
+            "value": "149197",
+            "footnotes": [
+              {
+              }
+            ],
+            "calculations": {
+              "net_changes": {
+                "1": "255",
+                "3": "331",
+                "6": "688",
+                "12": "1823"
+              },
+              "pct_changes": {
+                "1": "0.2",
+                "3": "0.2",
+                "6": "0.5",
+                "12": "1.2"
+              }
+            }
+          },
+          {
+            "year": "2015",
+            "period": "M09",
+            "periodName": "September",
+            "value": "148942",
+            "footnotes": [
+              {
+              }
+            ],
+            "calculations": {
+              "net_changes": {
+                "1": "-101",
+                "3": "220",
+                "6": "609",
+                "12": "2108"
+              },
+              "pct_changes": {
+                "1": "-0.1",
+                "3": "0.1",
+                "6": "0.4",
+                "12": "1.4"
+              }
+            }
+          },
+          {
+            "year": "2015",
+            "period": "M08",
+            "periodName": "August",
+            "value": "149043",
+            "footnotes": [
+              {
+              }
+            ],
+            "calculations": {
+              "net_changes": {
+                "1": "177",
+                "3": "295",
+                "6": "812",
+                "12": "2579"
+              },
+              "pct_changes": {
+                "1": "0.1",
+                "3": "0.2",
+                "6": "0.5",
+                "12": "1.8"
+              }
+            }
+          },
+          {
+            "year": "2015",
+            "period": "M07",
+            "periodName": "July",
+            "value": "148866",
+            "footnotes": [
+              {
+              }
+            ],
+            "calculations": {
+              "net_changes": {
+                "1": "144",
+                "3": "357",
+                "6": "762",
+                "12": "2428"
+              },
+              "pct_changes": {
+                "1": "0.1",
+                "3": "0.2",
+                "6": "0.5",
+                "12": "1.7"
+              }
+            }
+          },
+          {
+            "year": "2015",
+            "period": "M06",
+            "periodName": "June",
+            "value": "148722",
+            "footnotes": [
+              {
+              }
+            ],
+            "calculations": {
+              "net_changes": {
+                "1": "-26",
+                "3": "389",
+                "6": "1283",
+                "12": "2508"
+              },
+              "pct_changes": {
+                "1": "0.0",
+                "3": "0.3",
+                "6": "0.9",
+                "12": "1.7"
+              }
+            }
+          },
+          {
+            "year": "2015",
+            "period": "M05",
+            "periodName": "May",
+            "value": "148748",
+            "footnotes": [
+              {
+              }
+            ],
+            "calculations": {
+              "net_changes": {
+                "1": "239",
+                "3": "517",
+                "6": "1359",
+                "12": "2956"
+              },
+              "pct_changes": {
+                "1": "0.2",
+                "3": "0.3",
+                "6": "0.9",
+                "12": "2.0"
+              }
+            }
+          },
+          {
+            "year": "2015",
+            "period": "M04",
+            "periodName": "April",
+            "value": "148509",
+            "footnotes": [
+              {
+              }
+            ],
+            "calculations": {
+              "net_changes": {
+                "1": "176",
+                "3": "405",
+                "6": "1135",
+                "12": "2832"
+              },
+              "pct_changes": {
+                "1": "0.1",
+                "3": "0.3",
+                "6": "0.8",
+                "12": "1.9"
+              }
+            }
+          },
+          {
+            "year": "2015",
+            "period": "M03",
+            "periodName": "March",
+            "value": "148333",
+            "footnotes": [
+              {
+              }
+            ],
+            "calculations": {
+              "net_changes": {
+                "1": "102",
+                "3": "894",
+                "6": "1499",
+                "12": "2561"
+              },
+              "pct_changes": {
+                "1": "0.1",
+                "3": "0.6",
+                "6": "1.0",
+                "12": "1.8"
+              }
+            }
+          },
+          {
+            "year": "2015",
+            "period": "M02",
+            "periodName": "February",
+            "value": "148231",
+            "footnotes": [
+              {
+              }
+            ],
+            "calculations": {
+              "net_changes": {
+                "1": "127",
+                "3": "842",
+                "6": "1767",
+                "12": "3046"
+              },
+              "pct_changes": {
+                "1": "0.1",
+                "3": "0.6",
+                "6": "1.2",
+                "12": "2.1"
+              }
+            }
+          },
+          {
+            "year": "2015",
+            "period": "M01",
+            "periodName": "January",
+            "value": "148104",
+            "footnotes": [
+              {
+                "code": "1",
+                "text": "Data affected by changes in population controls."
+              }
+            ],
+            "calculations": {
+              "net_changes": {
+                "1": "665",
+                "3": "730",
+                "6": "1666",
+                "12": "3012"
+              },
+              "pct_changes": {
+                "1": "0.5",
+                "3": "0.5",
+                "6": "1.1",
+                "12": "2.1"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "seriesID": "LNS11000000",
+        "catalog": {
+          "series_title": "(Seas) Civilian Labor Force Level",
+          "series_id": "LNS11000000",
+          "seasonality": "Seasonally Adjusted",
+          "survey_name": "Labor Force Statistics from the Current Population Survey",
+          "measure_data_type": "Number in thousands",
+          "commerce_industry": "All Industries",
+          "occupation": "All Occupations",
+          "cps_labor_force_status": "Civilian labor force",
+          "demographic_age": "16 years and over",
+          "demographic_ethnic_origin": "All Origins",
+          "demographic_race": "All Races",
+          "demographic_gender": "Both Sexes",
+          "demographic_marital_status": "All marital statuses",
+          "demographic_education": "All educational levels"
+        },
+        "data": [
+          {
+            "year": "2015",
+            "period": "M12",
+            "periodName": "December",
+            "value": "157833",
+            "footnotes": [
+              {
+              }
+            ],
+            "calculations": {
+              "net_changes": {
+                "1": "466",
+                "3": "966",
+                "6": "849",
+                "12": "1691"
+              },
+              "pct_changes": {
+                "1": "0.3",
+                "3": "0.6",
+                "6": "0.5",
+                "12": "1.1"
+              }
+            }
+          },
+          {
+            "year": "2015",
+            "period": "M11",
+            "periodName": "November",
+            "value": "157367",
+            "footnotes": [
+              {
+              }
+            ],
+            "calculations": {
+              "net_changes": {
+                "1": "271",
+                "3": "306",
+                "6": "0",
+                "12": "925"
+              },
+              "pct_changes": {
+                "1": "0.2",
+                "3": "0.2",
+                "6": "0.0",
+                "12": "0.6"
+              }
+            }
+          },
+          {
+            "year": "2015",
+            "period": "M10",
+            "periodName": "October",
+            "value": "157096",
+            "footnotes": [
+              {
+              }
+            ],
+            "calculations": {
+              "net_changes": {
+                "1": "229",
+                "3": "-19",
+                "6": "64",
+                "12": "733"
+              },
+              "pct_changes": {
+                "1": "0.1",
+                "3": "0.0",
+                "6": "0.0",
+                "12": "0.5"
+              }
+            }
+          },
+          {
+            "year": "2015",
+            "period": "M09",
+            "periodName": "September",
+            "value": "156867",
+            "footnotes": [
+              {
+              }
+            ],
+            "calculations": {
+              "net_changes": {
+                "1": "-194",
+                "3": "-117",
+                "6": "-23",
+                "12": "738"
+              },
+              "pct_changes": {
+                "1": "-0.1",
+                "3": "-0.1",
+                "6": "0.0",
+                "12": "0.5"
+              }
+            }
+          },
+          {
+            "year": "2015",
+            "period": "M08",
+            "periodName": "August",
+            "value": "157061",
+            "footnotes": [
+              {
+              }
+            ],
+            "calculations": {
+              "net_changes": {
+                "1": "-54",
+                "3": "-306",
+                "6": "183",
+                "12": "981"
+              },
+              "pct_changes": {
+                "1": "0.0",
+                "3": "-0.2",
+                "6": "0.1",
+                "12": "0.6"
+              }
+            }
+          },
+          {
+            "year": "2015",
+            "period": "M07",
+            "periodName": "July",
+            "value": "157115",
+            "footnotes": [
+              {
+              }
+            ],
+            "calculations": {
+              "net_changes": {
+                "1": "131",
+                "3": "83",
+                "6": "90",
+                "12": "1025"
+              },
+              "pct_changes": {
+                "1": "0.1",
+                "3": "0.1",
+                "6": "0.1",
+                "12": "0.7"
+              }
+            }
+          },
+          {
+            "year": "2015",
+            "period": "M06",
+            "periodName": "June",
+            "value": "156984",
+            "footnotes": [
+              {
+              }
+            ],
+            "calculations": {
+              "net_changes": {
+                "1": "-383",
+                "3": "94",
+                "6": "842",
+                "12": "1300"
+              },
+              "pct_changes": {
+                "1": "-0.2",
+                "3": "0.1",
+                "6": "0.5",
+                "12": "0.8"
+              }
+            }
+          },
+          {
+            "year": "2015",
+            "period": "M05",
+            "periodName": "May",
+            "value": "157367",
+            "footnotes": [
+              {
+              }
+            ],
+            "calculations": {
+              "net_changes": {
+                "1": "335",
+                "3": "489",
+                "6": "925",
+                "12": "1856"
+              },
+              "pct_changes": {
+                "1": "0.2",
+                "3": "0.3",
+                "6": "0.6",
+                "12": "1.2"
+              }
+            }
+          },
+          {
+            "year": "2015",
+            "period": "M04",
+            "periodName": "April",
+            "value": "157032",
+            "footnotes": [
+              {
+              }
+            ],
+            "calculations": {
+              "net_changes": {
+                "1": "142",
+                "3": "7",
+                "6": "669",
+                "12": "1656"
+              },
+              "pct_changes": {
+                "1": "0.1",
+                "3": "0.0",
+                "6": "0.4",
+                "12": "1.1"
+              }
+            }
+          },
+          {
+            "year": "2015",
+            "period": "M03",
+            "periodName": "March",
+            "value": "156890",
+            "footnotes": [
+              {
+              }
+            ],
+            "calculations": {
+              "net_changes": {
+                "1": "12",
+                "3": "748",
+                "6": "761",
+                "12": "703"
+              },
+              "pct_changes": {
+                "1": "0.0",
+                "3": "0.5",
+                "6": "0.5",
+                "12": "0.5"
+              }
+            }
+          },
+          {
+            "year": "2015",
+            "period": "M02",
+            "periodName": "February",
+            "value": "156878",
+            "footnotes": [
+              {
+              }
+            ],
+            "calculations": {
+              "net_changes": {
+                "1": "-147",
+                "3": "436",
+                "6": "798",
+                "12": "1318"
+              },
+              "pct_changes": {
+                "1": "-0.1",
+                "3": "0.3",
+                "6": "0.5",
+                "12": "0.8"
+              }
+            }
+          },
+          {
+            "year": "2015",
+            "period": "M01",
+            "periodName": "January",
+            "value": "157025",
+            "footnotes": [
+              {
+                "code": "1",
+                "text": "Data affected by changes in population controls."
+              }
+            ],
+            "calculations": {
+              "net_changes": {
+                "1": "883",
+                "3": "662",
+                "6": "935",
+                "12": "1740"
+              },
+              "pct_changes": {
+                "1": "0.6",
+                "3": "0.4",
+                "6": "0.6",
+                "12": "1.1"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "seriesID": "LNS13000000",
+        "catalog": {
+          "series_title": "(Seas) Unemployment Level",
+          "series_id": "LNS13000000",
+          "seasonality": "Seasonally Adjusted",
+          "survey_name": "Labor Force Statistics from the Current Population Survey",
+          "measure_data_type": "Number in thousands",
+          "commerce_industry": "All Industries",
+          "occupation": "All Occupations",
+          "cps_labor_force_status": "Unemployed",
+          "demographic_age": "16 years and over",
+          "demographic_ethnic_origin": "All Origins",
+          "demographic_race": "All Races",
+          "demographic_gender": "Both Sexes",
+          "demographic_marital_status": "All marital statuses",
+          "demographic_education": "All educational levels"
+        },
+        "data": [
+          {
+            "year": "2015",
+            "period": "M12",
+            "periodName": "December",
+            "value": "7904",
+            "footnotes": [
+              {
+              }
+            ],
+            "calculations": {
+              "net_changes": {
+                "1": "-20",
+                "3": "-21",
+                "6": "-358",
+                "12": "-800"
+              },
+              "pct_changes": {
+                "1": "-0.3",
+                "3": "-0.3",
+                "6": "-4.3",
+                "12": "-9.2"
+              }
+            }
+          },
+          {
+            "year": "2015",
+            "period": "M11",
+            "periodName": "November",
+            "value": "7924",
+            "footnotes": [
+              {
+              }
+            ],
+            "calculations": {
+              "net_changes": {
+                "1": "25",
+                "3": "-94",
+                "6": "-695",
+                "12": "-1129"
+              },
+              "pct_changes": {
+                "1": "0.3",
+                "3": "-1.2",
+                "6": "-8.1",
+                "12": "-12.5"
+              }
+            }
+          },
+          {
+            "year": "2015",
+            "period": "M10",
+            "periodName": "October",
+            "value": "7899",
+            "footnotes": [
+              {
+              }
+            ],
+            "calculations": {
+              "net_changes": {
+                "1": "-26",
+                "3": "-350",
+                "6": "-624",
+                "12": "-1090"
+              },
+              "pct_changes": {
+                "1": "-0.3",
+                "3": "-4.2",
+                "6": "-7.3",
+                "12": "-12.1"
+              }
+            }
+          },
+          {
+            "year": "2015",
+            "period": "M09",
+            "periodName": "September",
+            "value": "7925",
+            "footnotes": [
+              {
+              }
+            ],
+            "calculations": {
+              "net_changes": {
+                "1": "-93",
+                "3": "-337",
+                "6": "-632",
+                "12": "-1371"
+              },
+              "pct_changes": {
+                "1": "-1.2",
+                "3": "-4.1",
+                "6": "-7.4",
+                "12": "-14.7"
+              }
+            }
+          },
+          {
+            "year": "2015",
+            "period": "M08",
+            "periodName": "August",
+            "value": "8018",
+            "footnotes": [
+              {
+              }
+            ],
+            "calculations": {
+              "net_changes": {
+                "1": "-231",
+                "3": "-601",
+                "6": "-628",
+                "12": "-1599"
+              },
+              "pct_changes": {
+                "1": "-2.8",
+                "3": "-7.0",
+                "6": "-7.3",
+                "12": "-16.6"
+              }
+            }
+          },
+          {
+            "year": "2015",
+            "period": "M07",
+            "periodName": "July",
+            "value": "8249",
+            "footnotes": [
+              {
+              }
+            ],
+            "calculations": {
+              "net_changes": {
+                "1": "-13",
+                "3": "-274",
+                "6": "-671",
+                "12": "-1402"
+              },
+              "pct_changes": {
+                "1": "-0.2",
+                "3": "-3.2",
+                "6": "-7.5",
+                "12": "-14.5"
+              }
+            }
+          },
+          {
+            "year": "2015",
+            "period": "M06",
+            "periodName": "June",
+            "value": "8262",
+            "footnotes": [
+              {
+              }
+            ],
+            "calculations": {
+              "net_changes": {
+                "1": "-357",
+                "3": "-295",
+                "6": "-442",
+                "12": "-1208"
+              },
+              "pct_changes": {
+                "1": "-4.1",
+                "3": "-3.4",
+                "6": "-5.1",
+                "12": "-12.8"
+              }
+            }
+          },
+          {
+            "year": "2015",
+            "period": "M05",
+            "periodName": "May",
+            "value": "8619",
+            "footnotes": [
+              {
+              }
+            ],
+            "calculations": {
+              "net_changes": {
+                "1": "96",
+                "3": "-27",
+                "6": "-434",
+                "12": "-1100"
+              },
+              "pct_changes": {
+                "1": "1.1",
+                "3": "-0.3",
+                "6": "-4.8",
+                "12": "-11.3"
+              }
+            }
+          },
+          {
+            "year": "2015",
+            "period": "M04",
+            "periodName": "April",
+            "value": "8523",
+            "footnotes": [
+              {
+              }
+            ],
+            "calculations": {
+              "net_changes": {
+                "1": "-34",
+                "3": "-397",
+                "6": "-466",
+                "12": "-1176"
+              },
+              "pct_changes": {
+                "1": "-0.4",
+                "3": "-4.5",
+                "6": "-5.2",
+                "12": "-12.1"
+              }
+            }
+          },
+          {
+            "year": "2015",
+            "period": "M03",
+            "periodName": "March",
+            "value": "8557",
+            "footnotes": [
+              {
+              }
+            ],
+            "calculations": {
+              "net_changes": {
+                "1": "-89",
+                "3": "-147",
+                "6": "-739",
+                "12": "-1858"
+              },
+              "pct_changes": {
+                "1": "-1.0",
+                "3": "-1.7",
+                "6": "-7.9",
+                "12": "-17.8"
+              }
+            }
+          },
+          {
+            "year": "2015",
+            "period": "M02",
+            "periodName": "February",
+            "value": "8646",
+            "footnotes": [
+              {
+              }
+            ],
+            "calculations": {
+              "net_changes": {
+                "1": "-274",
+                "3": "-407",
+                "6": "-971",
+                "12": "-1729"
+              },
+              "pct_changes": {
+                "1": "-3.1",
+                "3": "-4.5",
+                "6": "-10.1",
+                "12": "-16.7"
+              }
+            }
+          },
+          {
+            "year": "2015",
+            "period": "M01",
+            "periodName": "January",
+            "value": "8920",
+            "footnotes": [
+              {
+              }
+            ],
+            "calculations": {
+              "net_changes": {
+                "1": "216",
+                "3": "-69",
+                "6": "-731",
+                "12": "-1272"
+              },
+              "pct_changes": {
+                "1": "2.5",
+                "3": "-0.8",
+                "6": "-7.6",
+                "12": "-12.5"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

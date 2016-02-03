@@ -1,9 +1,11 @@
 require "bls_api/constants"
+require "bls_api/destringify"
 require "bls_api/errors"
 require "bls_api/raw_request"
 
 module BLS_API
   class Client
+    include BLS_API::Destringify
     include BLS_API::RawRequest
 
     attr_accessor :api_key
