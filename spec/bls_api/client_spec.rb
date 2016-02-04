@@ -15,6 +15,11 @@ describe BLS_API::Client do
     YAML.load(IO.read(File.join(
       examples_dir, "cps-situation-2015-all_options-destringified.yaml")))
   end
+  let(:all_options_floats) do
+    YAML.load(IO.read(File.join(
+      examples_dir,
+      "cps-situation-2015-all_options-destringified-use_floats.yaml")))
+  end
 
   describe "accepts an API key" do
     it "via environment variable" do
@@ -69,18 +74,35 @@ describe BLS_API::Client do
 
     let(:client) { BLS_API::Client.new("dummy_api_key") }
 
-    it "makes and cleans an API call" do
-      test_response = client.get(
-        :series_ids => [
-          "LNS14000000", "LNS13000000", "LNS12000000", "LNS11000000"
-        ],
-        :start_year => 2015,
-        :end_year => 2015,
-        :annual_averages => true,
-        :calculations => true,
-        :catalog => true
-      )
-      expect(test_response).to eq(all_options_destringified)
+    describe "makes and cleans an API call" do
+      it "using BigDecimals by default" do
+        test_response = client.get(
+          :series_ids => [
+            "LNS14000000", "LNS13000000", "LNS12000000", "LNS11000000"
+          ],
+          :start_year => 2015,
+          :end_year => 2015,
+          :annual_averages => true,
+          :calculations => true,
+          :catalog => true
+        )
+        expect(test_response).to eq(all_options_destringified)
+      end
+
+      it "using Floats if requested" do
+        client.use_floats = true
+        test_response = client.get(
+          :series_ids => [
+            "LNS14000000", "LNS13000000", "LNS12000000", "LNS11000000"
+          ],
+          :start_year => 2015,
+          :end_year => 2015,
+          :annual_averages => true,
+          :calculations => true,
+          :catalog => true
+        )
+        expect(test_response).to eq(all_options_floats)
+      end
     end
   end
 end

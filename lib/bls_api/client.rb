@@ -9,6 +9,7 @@ module BLS_API
     include BLS_API::RawRequest
 
     attr_accessor :api_key
+    attr_accessor :use_floats
 
     def initialize(api_key = nil)
       @api_key = ENV.fetch("BLS_API_KEY", nil)
@@ -22,6 +23,8 @@ module BLS_API
         EOF
         raise BLS_API::Errors::ConfigurationError, missing_key_message
       end
+
+      @use_floats = false
     end
 
     # Public: Request a batch of data from the BLS API.
@@ -62,7 +65,7 @@ module BLS_API
     #   strings converted to BigDecimals.
     def get(options = {})
       raw_response = self.make_api_request(options)
-      self.destringify(raw_response)
+      self.destringify(raw_response, @use_floats)
     end
   end
 end

@@ -10,10 +10,13 @@ module BLS_API
     #
     # raw_response  - A Hash of parsed JSON data from an API response, such as
     #                 that returned by BLS_API::RawRequest#make_api_request.
+    # use_floats    - An optional Boolean specifying whether to express values
+    #                 as Floats (for simplicity) instead of as BigDecimals
+    #                 (for precision) (default: false).
     #
     # Returns a Hash similar to raw_response but with some keys and values
     #   converted to Numerics.
-    def destringify(raw_response)
+    def destringify(raw_response, use_floats = false)
       output = {}
 
       raw_response.keys.reject { |key| key == "Results" }.each do |key|
@@ -28,7 +31,7 @@ module BLS_API
       end
 
       output_results["series"] = raw_results["series"].map do |raw_series|
-        self.destringify_series(raw_series)
+        self.destringify_series(raw_series, use_floats)
       end
 
       output
@@ -37,15 +40,25 @@ module BLS_API
     # Internal: Convert the keys and values in a calculations object (change in
     # an indicator over the past {1,3,6,12} months) from Strings to Numerics.
     #
-    # raw_calcs - A Hash with String keys (specifying the number of months over
-    #             which a given change was calculated) and String values
-    #             (specifying the change over that period of time).
+    # raw_calcs   - A Hash with String keys (specifying the number of months
+    #               over which a given change was calculated) and String values
+    #               (specifying the change over that period of time).
+    # use_floats  - An optional Boolean specifying whether to express values
+    #               as Floats (for simplicity) instead of as BigDecimals
+    #               (for precision) (default: false).
     #
     # Returns a Hash with Integer keys and BigDecimal values (to preserve
     #   precision).
-    def destringify_calculations(raw_calcs)
+    def destringify_calculations(raw_calcs, use_floats = false)
       Hash[raw_calcs.each_pair.map do |key, value|
-        [key.to_i, BigDecimal.new(value)]
+        [
+          key.to_i,
+
+          case use_floats
+          when true then value.to_f
+          else BigDecimal.new(value)
+          end
+        ]
       end]
     end
 
@@ -53,20 +66,26 @@ module BLS_API
     # (statistics and optional changes corresponding to a particular
     # series/month combination) from Strings to Numerics.
     #
-    # raw_month - A Hash for a given month's data point. Should contain "year",
-    #             "period" and "value" properties, at least.
+    # raw_month   - A Hash for a given month's data point. Should contain
+    #               "year", "period" and "value" properties, at least.
+    # use_floats  - An optional Boolean specifying whether to express values
+    #               as Floats (for simplicity) instead of as BigDecimals
+    #               (for precision) (default: false).
     #
     # Returns a Hash with all of the same keys as `raw_month`.
-    def destringify_month(raw_month)
+    def destringify_month(raw_month, use_floats = false)
       output = {}
 
       output["year"] = raw_month["year"].to_i
-      output["value"] = BigDecimal.new(raw_month["value"])
+      output["value"] = case use_floats
+                        when true then raw_month["value"].to_f
+                        else BigDecimal.new(raw_month["value"])
+                        end
 
       if raw_month.include?("calculations")
         output["calculations"] = Hash[
           raw_month["calculations"].each_pair.map do |name, calcs|
-            [name, self.destringify_calculations(calcs)]
+            [name, self.destringify_calculations(calcs, use_floats)]
           end
         ]
       end
@@ -83,9 +102,12 @@ module BLS_API
     # Numerics.
     #
     # raw_series  - An Array of month Hashes from a BLS API response.
+    # use_floats  - An optional Boolean specifying whether to express values
+    #               as Floats (for simplicity) instead of as BigDecimals
+    #               (for precision) (default: false).
     #
     # Returns an Array of month Hashes after conversion by #destringify_month.
-    def destringify_series(raw_series)
+    def destringify_series(raw_series, use_floats = false)
       output = {}
 
       raw_series.keys.reject { |key| key == "data" }.each do |key|
@@ -93,7 +115,7 @@ module BLS_API
       end
 
       output["data"] = raw_series["data"].map do |raw_month|
-        self.destringify_month(raw_month)
+        self.destringify_month(raw_month, use_floats)
       end
 
       output
