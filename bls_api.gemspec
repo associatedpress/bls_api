@@ -8,6 +8,7 @@ Gem::Specification.new do |spec|
   spec.version       = BLS_API::VERSION
   spec.authors       = ["Justin Myers"]
   spec.email         = ["jmyers@ap.org"]
+  spec.license       = "MIT"
 
   spec.summary       = %q{API wrapper for data from the U.S. Bureau of Labor Statistics.}
   spec.description   = %q{API wrapper for data from the U.S. Bureau of Labor Statistics.}
