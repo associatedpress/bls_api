@@ -1,4 +1,5 @@
-require "bls_api/catalog"
+require "ostruct"
+
 require "bls_api/month"
 
 module BLS_API
@@ -17,7 +18,7 @@ module BLS_API
     def catalog
       return nil unless @raw_series.include?("catalog")
       return @catalog unless @catalog.nil?
-      @catalog = BLS_API::Catalog.new(@raw_series["catalog"])
+      @catalog = OpenStruct.new(@raw_series["catalog"])
     end
 
     # Public: Return information for the given month.

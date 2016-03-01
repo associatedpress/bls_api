@@ -49,7 +49,6 @@ describe BLS_API::Series do
       end
 
       it "returns a catalog if available" do
-        pending "waiting on Catalog"
         expect(catalog_series.catalog.area).to eq("North Dakota")
       end
     end

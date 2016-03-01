@@ -1,4 +1,3 @@
-require "bls_api/catalog"
 require "bls_api/client"
 require "bls_api/constants"
 require "bls_api/destringify"
