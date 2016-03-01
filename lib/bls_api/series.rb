@@ -10,7 +10,12 @@ module BLS_API
 
     def initialize(raw_series)
       @id = raw_series["seriesID"]
-      @raw_series = self.destringify_series(raw_series)
+      begin
+        @raw_series = self.destringify_series(raw_series)
+      rescue ArgumentError
+        # Series was already destringified _and_ it was using Floats.
+        @raw_series = raw_series
+      end
     end
 
     # Public: Return catalog information for this series if available.
