@@ -4,11 +4,13 @@ require "bls_api/month"
 
 module BLS_API
   class Series
+    include BLS_API::Destringify
+
     attr_reader :id
 
     def initialize(raw_series)
       @id = raw_series["seriesID"]
-      @raw_series = raw_series
+      @raw_series = self.destringify_series(raw_series)
     end
 
     # Public: Return catalog information for this series if available.
@@ -30,8 +32,8 @@ module BLS_API
     # Returns a BLS_API::Month.
     def get_month(year, month)
       self.monthly  # Ensure we've converted all months.
-      @months.detect do |month|
-        month.year == year && month.month == month
+      @months.detect do |parsed_month|
+        parsed_month.year == year && parsed_month.month == month
       end
     end
 
@@ -43,7 +45,7 @@ module BLS_API
       @months = @raw_series["data"].map do |month_data|
         BLS_API::Month.new(month_data)
       end
-      @months.sort!
+      @months.sort!.reverse!
     end
   end
 end

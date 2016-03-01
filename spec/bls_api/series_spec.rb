@@ -54,17 +54,15 @@ describe BLS_API::Series do
     end
 
     it "(month access)" do
-      pending "waiting on Month"
       month = series.get_month(2014, 10)
       expect(month.value).to eq(BigDecimal.new("30.9"))
     end
 
     it "(array access)" do
-      pending "waiting on Month"
       expected_month_values = [
-        "32.1", "31.6", "30.9", "30.8", "30.3", "29.7", "29.2", "29.0",
-        "28.8", "28.5", "28.3", "28.0", "24.3", "25.3", "25.6", "26.5",
-        "26.5", "27.3", "27.6", "28.0", "28.6", "30.0", "31.2", "32.4"
+        "24.3", "25.3", "25.6", "26.5", "26.5", "27.3", "27.6", "28.0",
+        "28.6", "30.0", "31.2", "32.4", "32.1", "31.6", "30.9", "30.8",
+        "30.3", "29.7", "29.2", "29.0", "28.8", "28.5", "28.3", "28.0"
       ].map { |x| BigDecimal.new(x) }
       test_month_values = series.monthly.map { |month| month.value }
       expect(test_month_values).to eq(expected_month_values)
