@@ -9,6 +9,9 @@ module BLS_API
     include BLS_API::RawRequest
 
     attr_accessor :api_key
+    attr_accessor :request_annual_averages
+    attr_accessor :request_catalog
+    attr_accessor :request_calculations
     attr_accessor :use_floats
 
     def initialize(api_key = nil)
@@ -24,6 +27,9 @@ module BLS_API
         raise BLS_API::Errors::ConfigurationError, missing_key_message
       end
 
+      @request_annual_averages = true
+      @request_catalog = true
+      @request_calculations = true
       @use_floats = false
     end
 
