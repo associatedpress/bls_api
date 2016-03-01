@@ -75,17 +75,6 @@ describe BLS_API::RawRequest do
           end.to raise_error(BLS_API::Errors::OptionsError, "Missing end year")
         end
       end
-
-      describe "that are optional" do
-        it ":annual_averages" do
-        end
-
-        it ":calculations" do
-        end
-
-        it ":catalog" do
-        end
-      end
     end
 
     describe "requests series" do
@@ -93,7 +82,10 @@ describe BLS_API::RawRequest do
         response = requestor.make_api_request(
           :series_ids => "SMS38000001000000001",
           :start_year => 2014,
-          :end_year => 2015)
+          :end_year => 2015,
+          :catalog => false,
+          :calculations => false,
+          :annual_averages => false)
 
         expected_series_ids = ["SMS38000001000000001"]
         test_series_ids = response["Results"]["series"].map do |series|
@@ -108,7 +100,10 @@ describe BLS_API::RawRequest do
             "LNS14000000", "LNS13000000", "LNS12000000", "LNS11000000"
           ],
           :start_year => 2015,
-          :end_year => 2015)
+          :end_year => 2015,
+          :catalog => false,
+          :calculations => false,
+          :annual_averages => false)
 
         expected_series_ids = [
           "LNS11000000", "LNS12000000", "LNS13000000", "LNS14000000"

@@ -1,0 +1,431 @@
+---
+status: REQUEST_SUCCEEDED
+responseTime: 1530
+message: []
+Results:
+  series:
+  - seriesID: LNS14000000
+    catalog:
+      series_title: "(Seas) Unemployment Rate"
+      series_id: LNS14000000
+      seasonality: Seasonally Adjusted
+      survey_name: Labor Force Statistics from the Current Population Survey
+      measure_data_type: Percent or rate
+      commerce_industry: All Industries
+      occupation: All Occupations
+      cps_labor_force_status: Unemployment rate
+      demographic_age: 16 years and over
+      demographic_ethnic_origin: All Origins
+      demographic_race: All Races
+      demographic_gender: Both Sexes
+      demographic_marital_status: All marital statuses
+      demographic_education: All educational levels
+    data:
+    - year: 2014
+      value: !ruby/object:BigDecimal 18:0.56E1
+      calculations:
+        net_changes:
+          1: !ruby/object:BigDecimal 18:-0.2E0
+          3: !ruby/object:BigDecimal 18:-0.4E0
+          6: !ruby/object:BigDecimal 18:-0.5E0
+          12: !ruby/object:BigDecimal 18:-0.11E1
+        pct_changes:
+          1: !ruby/object:BigDecimal 18:-0.34E1
+          3: !ruby/object:BigDecimal 18:-0.67E1
+          6: !ruby/object:BigDecimal 18:-0.82E1
+          12: !ruby/object:BigDecimal 18:-0.164E2
+      period: M12
+      periodName: December
+      footnotes:
+      - {}
+    - year: 2014
+      value: !ruby/object:BigDecimal 18:0.58E1
+      calculations:
+        net_changes:
+          1: !ruby/object:BigDecimal 18:0.1E0
+          3: !ruby/object:BigDecimal 18:-0.4E0
+          6: !ruby/object:BigDecimal 18:-0.4E0
+          12: !ruby/object:BigDecimal 18:-0.11E1
+        pct_changes:
+          1: !ruby/object:BigDecimal 18:0.18E1
+          3: !ruby/object:BigDecimal 18:-0.65E1
+          6: !ruby/object:BigDecimal 18:-0.65E1
+          12: !ruby/object:BigDecimal 18:-0.159E2
+      period: M11
+      periodName: November
+      footnotes:
+      - {}
+    - year: 2014
+      value: !ruby/object:BigDecimal 18:0.57E1
+      calculations:
+        net_changes:
+          1: !ruby/object:BigDecimal 18:-0.3E0
+          3: !ruby/object:BigDecimal 18:-0.5E0
+          6: !ruby/object:BigDecimal 18:-0.5E0
+          12: !ruby/object:BigDecimal 18:-0.15E1
+        pct_changes:
+          1: !ruby/object:BigDecimal 18:-0.5E1
+          3: !ruby/object:BigDecimal 18:-0.81E1
+          6: !ruby/object:BigDecimal 18:-0.81E1
+          12: !ruby/object:BigDecimal 18:-0.208E2
+      period: M10
+      periodName: October
+      footnotes:
+      - {}
+    - year: 2014
+      value: !ruby/object:BigDecimal 18:0.6E1
+      calculations:
+        net_changes:
+          1: !ruby/object:BigDecimal 18:-0.2E0
+          3: !ruby/object:BigDecimal 18:-0.1E0
+          6: !ruby/object:BigDecimal 18:-0.7E0
+          12: !ruby/object:BigDecimal 18:-0.13E1
+        pct_changes:
+          1: !ruby/object:BigDecimal 18:-0.32E1
+          3: !ruby/object:BigDecimal 18:-0.16E1
+          6: !ruby/object:BigDecimal 18:-0.104E2
+          12: !ruby/object:BigDecimal 18:-0.178E2
+      period: M09
+      periodName: September
+      footnotes:
+      - {}
+    - year: 2014
+      value: !ruby/object:BigDecimal 18:0.62E1
+      calculations:
+        net_changes:
+          1: !ruby/object:BigDecimal 18:0.0
+          3: !ruby/object:BigDecimal 18:0.0
+          6: !ruby/object:BigDecimal 18:-0.5E0
+          12: !ruby/object:BigDecimal 18:-0.11E1
+        pct_changes:
+          1: !ruby/object:BigDecimal 18:0.0
+          3: !ruby/object:BigDecimal 18:0.0
+          6: !ruby/object:BigDecimal 18:-0.75E1
+          12: !ruby/object:BigDecimal 18:-0.151E2
+      period: M08
+      periodName: August
+      footnotes:
+      - {}
+    - year: 2014
+      value: !ruby/object:BigDecimal 18:0.62E1
+      calculations:
+        net_changes:
+          1: !ruby/object:BigDecimal 18:0.1E0
+          3: !ruby/object:BigDecimal 18:0.0
+          6: !ruby/object:BigDecimal 18:-0.4E0
+          12: !ruby/object:BigDecimal 18:-0.11E1
+        pct_changes:
+          1: !ruby/object:BigDecimal 18:0.16E1
+          3: !ruby/object:BigDecimal 18:0.0
+          6: !ruby/object:BigDecimal 18:-0.61E1
+          12: !ruby/object:BigDecimal 18:-0.151E2
+      period: M07
+      periodName: July
+      footnotes:
+      - {}
+    - year: 2014
+      value: !ruby/object:BigDecimal 18:0.61E1
+      calculations:
+        net_changes:
+          1: !ruby/object:BigDecimal 18:-0.1E0
+          3: !ruby/object:BigDecimal 18:-0.6E0
+          6: !ruby/object:BigDecimal 18:-0.6E0
+          12: !ruby/object:BigDecimal 18:-0.14E1
+        pct_changes:
+          1: !ruby/object:BigDecimal 18:-0.16E1
+          3: !ruby/object:BigDecimal 18:-0.9E1
+          6: !ruby/object:BigDecimal 18:-0.9E1
+          12: !ruby/object:BigDecimal 18:-0.187E2
+      period: M06
+      periodName: June
+      footnotes:
+      - {}
+    - year: 2014
+      value: !ruby/object:BigDecimal 18:0.62E1
+      calculations:
+        net_changes:
+          1: !ruby/object:BigDecimal 18:0.0
+          3: !ruby/object:BigDecimal 18:-0.5E0
+          6: !ruby/object:BigDecimal 18:-0.7E0
+          12: !ruby/object:BigDecimal 18:-0.13E1
+        pct_changes:
+          1: !ruby/object:BigDecimal 18:0.0
+          3: !ruby/object:BigDecimal 18:-0.75E1
+          6: !ruby/object:BigDecimal 18:-0.101E2
+          12: !ruby/object:BigDecimal 18:-0.173E2
+      period: M05
+      periodName: May
+      footnotes:
+      - {}
+    - year: 2014
+      value: !ruby/object:BigDecimal 18:0.62E1
+      calculations:
+        net_changes:
+          1: !ruby/object:BigDecimal 18:-0.5E0
+          3: !ruby/object:BigDecimal 18:-0.4E0
+          6: !ruby/object:BigDecimal 18:-0.1E1
+          12: !ruby/object:BigDecimal 18:-0.14E1
+        pct_changes:
+          1: !ruby/object:BigDecimal 18:-0.75E1
+          3: !ruby/object:BigDecimal 18:-0.61E1
+          6: !ruby/object:BigDecimal 18:-0.139E2
+          12: !ruby/object:BigDecimal 18:-0.184E2
+      period: M04
+      periodName: April
+      footnotes:
+      - {}
+    - year: 2014
+      value: !ruby/object:BigDecimal 18:0.67E1
+      calculations:
+        net_changes:
+          1: !ruby/object:BigDecimal 18:0.0
+          3: !ruby/object:BigDecimal 18:0.0
+          6: !ruby/object:BigDecimal 18:-0.6E0
+          12: !ruby/object:BigDecimal 18:-0.8E0
+        pct_changes:
+          1: !ruby/object:BigDecimal 18:0.0
+          3: !ruby/object:BigDecimal 18:0.0
+          6: !ruby/object:BigDecimal 18:-0.82E1
+          12: !ruby/object:BigDecimal 18:-0.107E2
+      period: M03
+      periodName: March
+      footnotes:
+      - {}
+    - year: 2014
+      value: !ruby/object:BigDecimal 18:0.67E1
+      calculations:
+        net_changes:
+          1: !ruby/object:BigDecimal 18:0.1E0
+          3: !ruby/object:BigDecimal 18:-0.2E0
+          6: !ruby/object:BigDecimal 18:-0.6E0
+          12: !ruby/object:BigDecimal 18:-0.1E1
+        pct_changes:
+          1: !ruby/object:BigDecimal 18:0.15E1
+          3: !ruby/object:BigDecimal 18:-0.29E1
+          6: !ruby/object:BigDecimal 18:-0.82E1
+          12: !ruby/object:BigDecimal 18:-0.13E2
+      period: M02
+      periodName: February
+      footnotes:
+      - {}
+    - year: 2014
+      value: !ruby/object:BigDecimal 18:0.66E1
+      calculations:
+        net_changes:
+          1: !ruby/object:BigDecimal 18:-0.1E0
+          3: !ruby/object:BigDecimal 18:-0.6E0
+          6: !ruby/object:BigDecimal 18:-0.7E0
+          12: !ruby/object:BigDecimal 18:-0.14E1
+        pct_changes:
+          1: !ruby/object:BigDecimal 18:-0.15E1
+          3: !ruby/object:BigDecimal 18:-0.83E1
+          6: !ruby/object:BigDecimal 18:-0.96E1
+          12: !ruby/object:BigDecimal 18:-0.175E2
+      period: M01
+      periodName: January
+      footnotes:
+      - {}
+    - year: 2015
+      value: !ruby/object:BigDecimal 18:0.5E1
+      calculations:
+        net_changes:
+          1: !ruby/object:BigDecimal 18:0.0
+          3: !ruby/object:BigDecimal 18:-0.1E0
+          6: !ruby/object:BigDecimal 18:-0.3E0
+          12: !ruby/object:BigDecimal 18:-0.6E0
+        pct_changes:
+          1: !ruby/object:BigDecimal 18:0.0
+          3: !ruby/object:BigDecimal 18:-0.2E1
+          6: !ruby/object:BigDecimal 18:-0.57E1
+          12: !ruby/object:BigDecimal 18:-0.107E2
+      period: M12
+      periodName: December
+      footnotes:
+      - {}
+    - year: 2015
+      value: !ruby/object:BigDecimal 18:0.5E1
+      calculations:
+        net_changes:
+          1: !ruby/object:BigDecimal 18:0.0
+          3: !ruby/object:BigDecimal 18:-0.1E0
+          6: !ruby/object:BigDecimal 18:-0.5E0
+          12: !ruby/object:BigDecimal 18:-0.8E0
+        pct_changes:
+          1: !ruby/object:BigDecimal 18:0.0
+          3: !ruby/object:BigDecimal 18:-0.2E1
+          6: !ruby/object:BigDecimal 18:-0.91E1
+          12: !ruby/object:BigDecimal 18:-0.138E2
+      period: M11
+      periodName: November
+      footnotes:
+      - {}
+    - year: 2015
+      value: !ruby/object:BigDecimal 18:0.5E1
+      calculations:
+        net_changes:
+          1: !ruby/object:BigDecimal 18:-0.1E0
+          3: !ruby/object:BigDecimal 18:-0.3E0
+          6: !ruby/object:BigDecimal 18:-0.4E0
+          12: !ruby/object:BigDecimal 18:-0.7E0
+        pct_changes:
+          1: !ruby/object:BigDecimal 18:-0.2E1
+          3: !ruby/object:BigDecimal 18:-0.57E1
+          6: !ruby/object:BigDecimal 18:-0.74E1
+          12: !ruby/object:BigDecimal 18:-0.123E2
+      period: M10
+      periodName: October
+      footnotes:
+      - {}
+    - year: 2015
+      value: !ruby/object:BigDecimal 18:0.51E1
+      calculations:
+        net_changes:
+          1: !ruby/object:BigDecimal 18:0.0
+          3: !ruby/object:BigDecimal 18:-0.2E0
+          6: !ruby/object:BigDecimal 18:-0.4E0
+          12: !ruby/object:BigDecimal 18:-0.9E0
+        pct_changes:
+          1: !ruby/object:BigDecimal 18:0.0
+          3: !ruby/object:BigDecimal 18:-0.38E1
+          6: !ruby/object:BigDecimal 18:-0.73E1
+          12: !ruby/object:BigDecimal 18:-0.15E2
+      period: M09
+      periodName: September
+      footnotes:
+      - {}
+    - year: 2015
+      value: !ruby/object:BigDecimal 18:0.51E1
+      calculations:
+        net_changes:
+          1: !ruby/object:BigDecimal 18:-0.2E0
+          3: !ruby/object:BigDecimal 18:-0.4E0
+          6: !ruby/object:BigDecimal 18:-0.4E0
+          12: !ruby/object:BigDecimal 18:-0.11E1
+        pct_changes:
+          1: !ruby/object:BigDecimal 18:-0.38E1
+          3: !ruby/object:BigDecimal 18:-0.73E1
+          6: !ruby/object:BigDecimal 18:-0.73E1
+          12: !ruby/object:BigDecimal 18:-0.177E2
+      period: M08
+      periodName: August
+      footnotes:
+      - {}
+    - year: 2015
+      value: !ruby/object:BigDecimal 18:0.53E1
+      calculations:
+        net_changes:
+          1: !ruby/object:BigDecimal 18:0.0
+          3: !ruby/object:BigDecimal 18:-0.1E0
+          6: !ruby/object:BigDecimal 18:-0.4E0
+          12: !ruby/object:BigDecimal 18:-0.9E0
+        pct_changes:
+          1: !ruby/object:BigDecimal 18:0.0
+          3: !ruby/object:BigDecimal 18:-0.19E1
+          6: !ruby/object:BigDecimal 18:-0.7E1
+          12: !ruby/object:BigDecimal 18:-0.145E2
+      period: M07
+      periodName: July
+      footnotes:
+      - {}
+    - year: 2015
+      value: !ruby/object:BigDecimal 18:0.53E1
+      calculations:
+        net_changes:
+          1: !ruby/object:BigDecimal 18:-0.2E0
+          3: !ruby/object:BigDecimal 18:-0.2E0
+          6: !ruby/object:BigDecimal 18:-0.3E0
+          12: !ruby/object:BigDecimal 18:-0.8E0
+        pct_changes:
+          1: !ruby/object:BigDecimal 18:-0.36E1
+          3: !ruby/object:BigDecimal 18:-0.36E1
+          6: !ruby/object:BigDecimal 18:-0.54E1
+          12: !ruby/object:BigDecimal 18:-0.131E2
+      period: M06
+      periodName: June
+      footnotes:
+      - {}
+    - year: 2015
+      value: !ruby/object:BigDecimal 18:0.55E1
+      calculations:
+        net_changes:
+          1: !ruby/object:BigDecimal 18:0.1E0
+          3: !ruby/object:BigDecimal 18:0.0
+          6: !ruby/object:BigDecimal 18:-0.3E0
+          12: !ruby/object:BigDecimal 18:-0.7E0
+        pct_changes:
+          1: !ruby/object:BigDecimal 18:0.19E1
+          3: !ruby/object:BigDecimal 18:0.0
+          6: !ruby/object:BigDecimal 18:-0.52E1
+          12: !ruby/object:BigDecimal 18:-0.113E2
+      period: M05
+      periodName: May
+      footnotes:
+      - {}
+    - year: 2015
+      value: !ruby/object:BigDecimal 18:0.54E1
+      calculations:
+        net_changes:
+          1: !ruby/object:BigDecimal 18:-0.1E0
+          3: !ruby/object:BigDecimal 18:-0.3E0
+          6: !ruby/object:BigDecimal 18:-0.3E0
+          12: !ruby/object:BigDecimal 18:-0.8E0
+        pct_changes:
+          1: !ruby/object:BigDecimal 18:-0.18E1
+          3: !ruby/object:BigDecimal 18:-0.53E1
+          6: !ruby/object:BigDecimal 18:-0.53E1
+          12: !ruby/object:BigDecimal 18:-0.129E2
+      period: M04
+      periodName: April
+      footnotes:
+      - {}
+    - year: 2015
+      value: !ruby/object:BigDecimal 18:0.55E1
+      calculations:
+        net_changes:
+          1: !ruby/object:BigDecimal 18:0.0
+          3: !ruby/object:BigDecimal 18:-0.1E0
+          6: !ruby/object:BigDecimal 18:-0.5E0
+          12: !ruby/object:BigDecimal 18:-0.12E1
+        pct_changes:
+          1: !ruby/object:BigDecimal 18:0.0
+          3: !ruby/object:BigDecimal 18:-0.18E1
+          6: !ruby/object:BigDecimal 18:-0.83E1
+          12: !ruby/object:BigDecimal 18:-0.179E2
+      period: M03
+      periodName: March
+      footnotes:
+      - {}
+    - year: 2015
+      value: !ruby/object:BigDecimal 18:0.55E1
+      calculations:
+        net_changes:
+          1: !ruby/object:BigDecimal 18:-0.2E0
+          3: !ruby/object:BigDecimal 18:-0.3E0
+          6: !ruby/object:BigDecimal 18:-0.7E0
+          12: !ruby/object:BigDecimal 18:-0.12E1
+        pct_changes:
+          1: !ruby/object:BigDecimal 18:-0.35E1
+          3: !ruby/object:BigDecimal 18:-0.52E1
+          6: !ruby/object:BigDecimal 18:-0.113E2
+          12: !ruby/object:BigDecimal 18:-0.179E2
+      period: M02
+      periodName: February
+      footnotes:
+      - {}
+    - year: 2015
+      value: !ruby/object:BigDecimal 18:0.57E1
+      calculations:
+        net_changes:
+          1: !ruby/object:BigDecimal 18:0.1E0
+          3: !ruby/object:BigDecimal 18:0.0
+          6: !ruby/object:BigDecimal 18:-0.5E0
+          12: !ruby/object:BigDecimal 18:-0.9E0
+        pct_changes:
+          1: !ruby/object:BigDecimal 18:0.18E1
+          3: !ruby/object:BigDecimal 18:0.0
+          6: !ruby/object:BigDecimal 18:-0.81E1
+          12: !ruby/object:BigDecimal 18:-0.136E2
+      period: M01
+      periodName: January
+      footnotes:
+      - {}

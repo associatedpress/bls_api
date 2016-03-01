@@ -72,6 +72,9 @@ describe BLS_API::Client do
       })).to_return(:body => all_options_json)
     end
 
+    let(:destringified_series) do
+      all_options_destringified["Results"]["series"]
+    end
     let(:client) { BLS_API::Client.new("dummy_api_key") }
 
     describe "makes and cleans an API call" do
@@ -86,7 +89,9 @@ describe BLS_API::Client do
           :calculations => true,
           :catalog => true
         )
-        expect(test_response).to eq(all_options_destringified)
+        expect(test_response.keys.sort).to eq([
+          "LNS11000000", "LNS12000000", "LNS13000000", "LNS14000000"])
+        expect(test_response["LNS11000000"]).to be_a(BLS_API::Series)
       end
 
       it "using Floats if requested" do
@@ -101,7 +106,11 @@ describe BLS_API::Client do
           :calculations => true,
           :catalog => true
         )
-        expect(test_response).to eq(all_options_floats)
+        expect(test_response.keys.sort).to eq([
+          "LNS11000000", "LNS12000000", "LNS13000000", "LNS14000000"])
+        expect(test_response["LNS11000000"]).to be_a(BLS_API::Series)
+        test_value = test_response["LNS11000000"].get_month(2015, 10).value
+        expect(test_value).to be_a(Float)
       end
     end
   end

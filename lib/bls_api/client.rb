@@ -59,19 +59,22 @@ module BLS_API
     #                               (default: true).
     #           :catalog          - A Boolean specifying whether to include
     #                               catalog data in the response
-    #                               (default: false).
+    #                               (default: true).
     #           :calculations     - A Boolean specifying whether to include
     #                               net-change and percent-change calculations
-    #                               in the response (default: false).
+    #                               in the response (default: true).
     #           :annual_averages  - A Boolean specifying whether to include
     #                               annual averages in the response
-    #                               (default: false).
+    #                               (default: true).
     #
-    # Returns a Hash of the parsed JSON response from the API, with numeric
-    #   strings converted to BigDecimals.
+    # Returns a Hash with the given String series IDs as keys and
+    #   BLS_API::Series instances as values.
     def get(options = {})
       raw_response = self.make_api_request(options)
-      self.destringify(raw_response, @use_floats)
+      destringified = self.destringify(raw_response, @use_floats)
+      series = Hash[destringified["Results"]["series"].map do |raw_series|
+        [raw_series["seriesID"], BLS_API::Series.new(raw_series)]
+      end]
     end
   end
 end

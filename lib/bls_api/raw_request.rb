@@ -31,13 +31,13 @@ module BLS_API
     #                               (default: true).
     #           :catalog          - A Boolean specifying whether to include
     #                               catalog data in the response
-    #                               (default: false).
+    #                               (default: true).
     #           :calculations     - A Boolean specifying whether to include
     #                               net-change and percent-change calculations
-    #                               in the response (default: false).
+    #                               in the response (default: true).
     #           :annual_averages  - A Boolean specifying whether to include
     #                               annual averages in the response
-    #                               (default: false).
+    #                               (default: true).
     #
     # Returns a Hash of the parsed JSON response from the API.
     def make_api_request(options = {})
@@ -60,9 +60,9 @@ module BLS_API
         "seriesid" => series_ids,
         "startyear" => start_year.to_s,
         "endyear" => end_year.to_s,
-        "annualaverage" => options.fetch(:annual_averages, false),
-        "calculations" => options.fetch(:calculations, false),
-        "catalog" => options.fetch(:catalog, false),
+        "annualaverage" => options.fetch(:annual_averages, true),
+        "calculations" => options.fetch(:calculations, true),
+        "catalog" => options.fetch(:catalog, true),
         "registrationKey" => self.api_key
       }.to_json
       req.content_type = "application/json"

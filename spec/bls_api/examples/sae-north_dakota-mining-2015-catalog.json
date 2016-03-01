@@ -1,0 +1,152 @@
+{
+  "status": "REQUEST_SUCCEEDED",
+  "responseTime": 232,
+  "message": [
+
+  ],
+  "Results": {
+    "series": [
+      {
+        "seriesID": "SMS38000001000000001",
+        "catalog": {
+          "series_title": "Employed : Mining and Logging - Mining and Logging",
+          "series_id": "SMS38000001000000001",
+          "seasonality": "Seasonally Adjusted",
+          "survey_name": "State and Area Employment, Hours, and Earnings",
+          "measure_data_type": "All Employees, In Thousands",
+          "commerce_industry": "Mining and Logging",
+          "commerce_sector": "Mining and Logging",
+          "area": "North Dakota"
+        },
+        "data": [
+          {
+            "year": "2015",
+            "period": "M12",
+            "periodName": "December",
+            "value": "24.3",
+            "footnotes": [
+              {
+                "code": "P",
+                "text": "Preliminary"
+              }
+            ]
+          },
+          {
+            "year": "2015",
+            "period": "M11",
+            "periodName": "November",
+            "value": "25.3",
+            "footnotes": [
+              {
+              }
+            ]
+          },
+          {
+            "year": "2015",
+            "period": "M10",
+            "periodName": "October",
+            "value": "25.6",
+            "footnotes": [
+              {
+              }
+            ]
+          },
+          {
+            "year": "2015",
+            "period": "M09",
+            "periodName": "September",
+            "value": "26.5",
+            "footnotes": [
+              {
+              }
+            ]
+          },
+          {
+            "year": "2015",
+            "period": "M08",
+            "periodName": "August",
+            "value": "26.5",
+            "footnotes": [
+              {
+              }
+            ]
+          },
+          {
+            "year": "2015",
+            "period": "M07",
+            "periodName": "July",
+            "value": "27.3",
+            "footnotes": [
+              {
+              }
+            ]
+          },
+          {
+            "year": "2015",
+            "period": "M06",
+            "periodName": "June",
+            "value": "27.6",
+            "footnotes": [
+              {
+              }
+            ]
+          },
+          {
+            "year": "2015",
+            "period": "M05",
+            "periodName": "May",
+            "value": "28.0",
+            "footnotes": [
+              {
+              }
+            ]
+          },
+          {
+            "year": "2015",
+            "period": "M04",
+            "periodName": "April",
+            "value": "28.6",
+            "footnotes": [
+              {
+              }
+            ]
+          },
+          {
+            "year": "2015",
+            "period": "M03",
+            "periodName": "March",
+            "value": "30.0",
+            "footnotes": [
+              {
+              }
+            ]
+          },
+          {
+            "year": "2015",
+            "period": "M02",
+            "periodName": "February",
+            "value": "31.2",
+            "footnotes": [
+              {
+                "code": "C",
+                "text": "Correction"
+              }
+            ]
+          },
+          {
+            "year": "2015",
+            "period": "M01",
+            "periodName": "January",
+            "value": "32.4",
+            "footnotes": [
+              {
+                "code": "C",
+                "text": "Correction"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

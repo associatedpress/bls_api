@@ -64,6 +64,20 @@ describe BLS_API::Destringify do
         expect(test_response).to eq(all_options_floats)
       end
     end
+
+    describe "is idempotent" do
+      it "for BigDecimals" do
+        destringified = destringifier.destringify(all_options_response)
+        doubly_destringified = destringifier.destringify(destringified)
+        expect(doubly_destringified).to eq(all_options_destringified)
+      end
+
+      it "for Floats" do
+        destringified = destringifier.destringify(all_options_response, true)
+        doubly_destringified = destringifier.destringify(destringified, true)
+        expect(doubly_destringified).to eq(all_options_floats)
+      end
+    end
   end
 
   describe ".destringify_calculations" do
