@@ -20,8 +20,8 @@ module BLS_API
 
     # Public: Return catalog information for this series if available.
     #
-    # Returns a BLS_API::Catalog if possible; returns nil if no catalog
-    #   information was received.
+    # Returns an OpenStruct if possible; returns nil if no catalog information
+    #   was received.
     def catalog
       return nil unless @raw_series.include?("catalog")
       return @catalog unless @catalog.nil?
