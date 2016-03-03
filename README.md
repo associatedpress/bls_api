@@ -1,5 +1,8 @@
 # Bureau of Labor Statistics API wrapper #
 
+[![Build Status](https://travis-ci.org/associatedpress/bls_api.svg?branch=master)](https://travis-ci.org/associatedpress/bls_api)
+[![Gem Version](https://badge.fury.io/rb/bls_api.svg)](http://badge.fury.io/rb/bls_api)
+
 This is a Ruby wrapper for [v2][v2] of the [BLS Public Data API][bls-dev].
 
 [bls-dev]: http://www.bls.gov/developers/home.htm
