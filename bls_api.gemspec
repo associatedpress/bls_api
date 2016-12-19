@@ -21,6 +21,7 @@ Gem::Specification.new do |spec|
 
   if Gem::Version.new(RUBY_VERSION) < Gem::Version.new("2.0.0")
     spec.add_development_dependency "activesupport", "~> 4.2"
+    spec.add_development_dependency "addressable", "~> 2.4.0"
   end
 
   spec.add_development_dependency "bundler", "~> 1.10"
