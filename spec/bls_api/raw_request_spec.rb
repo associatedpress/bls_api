@@ -9,7 +9,7 @@ describe BLS_API::RawRequest do
   end
   let(:requestor) { Requestor.new }
 
-  let(:api_url) { "http://api.bls.gov/publicAPI/v2/timeseries/data/" }
+  let(:api_url) { "https://api.bls.gov/publicAPI/v2/timeseries/data/" }
 
   let(:examples_dir) { File.join(File.dirname(__FILE__), "examples") }
   let(:single_series_response) do

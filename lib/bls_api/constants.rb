@@ -1,6 +1,6 @@
 module BLS_API
   module Constants
-    ENDPOINT_URL = "http://api.bls.gov/publicAPI/v2/timeseries/data/"
+    ENDPOINT_URL = "https://api.bls.gov/publicAPI/v2/timeseries/data/"
 
     MAX_SERIES_PER_REQUEST = 50
     MAX_YEARS_PER_REQUEST = 20
