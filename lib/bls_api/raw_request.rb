@@ -66,7 +66,10 @@ module BLS_API
         "registrationKey" => self.api_key
       }.to_json
       req.content_type = "application/json"
-      res = Net::HTTP.start(endpoint_uri.host, endpoint_uri.port) do |http|
+      res = Net::HTTP.start(
+        endpoint_uri.host, endpoint_uri.port,
+        :use_ssl => endpoint_uri.scheme == "https"
+      ) do |http|
         http.request(req)
       end
 
