@@ -1,4 +1,5 @@
 require "json"
+require "net/http"
 
 require "bls_api/constants"
 require "bls_api/errors"
